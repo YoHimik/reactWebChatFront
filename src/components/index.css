@@ -1,0 +1,16 @@
+h1{
+    font-size: 40px;
+}
+
+#root{
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #5b5c60;
+    background: #f9fbe0;
+}

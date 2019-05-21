@@ -1,0 +1,102 @@
+#chatRoom {
+    min-height: 100vh;
+    position: relative;
+}
+
+#messageList {
+    padding-top: 30px;
+    max-height: 80%;
+    margin-left: auto;
+    width: 75%;
+}
+
+.message.server {
+    margin-left: auto;
+    margin-right: auto;
+    background: #fbfbfb;
+    box-shadow: #fbfbfb 0px 0px 11px 7px;
+}
+
+.message.mine {
+    margin-left: auto;
+    background: #b6ffc4;
+    box-shadow: #b6ffc4 0px 0px 11px 7px;
+}
+
+.message {
+    max-width: 50%;
+    border-radius: 20px;
+    background: #e6eaff;
+    box-shadow: #e6eaff 0px 0px 11px 7px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    word-wrap: break-word
+}
+
+.messageDate {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+}
+
+.messageAuthor {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
+.messageText {
+    margin: 0;
+    text-align: left;
+}
+
+#inputField {
+    position: fixed;
+    width: 100%;
+    max-width: 80%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    z-index: 99;
+    text-align: right;
+    background: #f9fbe0;
+    box-shadow: #f9fbe0 0px 0px 11px 10px;
+    display: flex;
+}
+
+#input {
+    width: 75%;
+    resize: none;
+    height: 28px;
+}
+
+#input.enterMessage {
+    width: 60%;
+    margin-left: auto;
+}
+
+#sendButton {
+    height: 32px;
+}
+
+#mediaBlock {
+    position: fixed;
+    bottom: 90px;
+    width: 20%;
+}
+
+video {
+    width: 100%;
+}
+
+#usersList {
+    top: 30px;
+    position: fixed;
+    width: 20%;
+    text-align: left;
+    height: 40%;
+    background: #fbfbfb;
+    box-shadow: #fbfbfb 0px 0px 11px 7px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
