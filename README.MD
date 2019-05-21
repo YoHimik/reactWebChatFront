@@ -1,4 +1,5 @@
-#Task:
+#reactWebChatFront
+##Task:
 1. After opening a page, user should enter his name.
 2. After entering the name user should join new chat room.
 3. There can be several chat rooms at the same time.
